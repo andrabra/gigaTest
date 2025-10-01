@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио — Андрей Майоров</title>
+
+    <link rel="icon" type="image/svg+xml" href="./img/logo.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Подключение стилей -->
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Андрей Майоров</h1>
+    </header>
+
+    <main class="main">
+      <section class="profile">
+        <img src="./img/me.jpg" alt="Моя фотография" class="profile-photo" />
+        <div class="profile-info">
+          <p>
+            Привет! Я&nbsp;frontend-разработчик с&nbsp;опытом работы более года
+            в коммерческих проектах.
+          </p>
+
+          <p>
+            В&nbsp;основном работаю с&nbsp;Angular, но&nbsp;люблю пробовать
+            новые технологии и инструменты, следить за&nbsp;трендами
+            в&nbsp;веб-разработке и&nbsp;осваивать интересные подходы.
+            В&nbsp;свободное время экспериментирую с&nbsp;личными пет-проектами
+            на&nbsp;React.
+          </p>
+
+          <p>
+            Для меня важно не&nbsp;просто писать код, а&nbsp;создавать
+            интерфейсы, которые удобны и&nbsp;приятны для пользователей. Есть
+            опыт командной разработки и участия в&nbsp;реальных проектах,
+            а&nbsp;также участие в&nbsp;хакатонах&nbsp;&mdash; например,
+            я&nbsp;выиграл один от&nbsp;Napoleon IT.
+          </p>
+
+          <p>
+            Помимо работы, люблю развиваться и&nbsp;разнообразно проводить
+            время: читаю статьи на&nbsp;Хабре, посещаю локальные IT-мероприятия,
+            занимаюсь фотографией, читаю книги и&nbsp;беру уроки игры
+            на&nbsp;барабанах. Мне интересно всё новое и&nbsp;я&nbsp;всегда рад
+            делиться опытом с&nbsp;коллегами.
+          </p>
+        </div>
+      </section>
+
+      <section class="skills">
+        <h2>Мои навыки:</h2>
+        <button id="toggle-skills">Показать навыки</button>
+        <ul id="skills-list" class="hidden">
+          <li>HTML & CSS</li>
+          <li>Адаптивная вёрстка</li>
+          <li>JavaScript (ES6+)</li>
+          <li>React</li>
+          <li>Angular</li>
+          <li>Git</li>
+          <li>Github, Gitlab, Bitbucket</li>
+        </ul>
+      </section>
+
+      <section class="download">
+        <div>
+          <h2>Моё резюме</h2>
+          <button id="download-pdf">Скачать резюме</button>
+        </div>
+        <div>
+          <div>
+            <h2>Диплом победителя хакатона</h2>
+            <div class="hint">
+              (недавно я поменял фамилию, поэтому в дипломе она прежняя)
+            </div>
+          </div>
+          <button id="download-diploma">Скачать диплом</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 Андрей Майоров</p>
+    </footer>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
