@@ -5,6 +5,7 @@ body {
   color: #333;
   line-height: 1.6;
   padding: 20px;
+  max-height: 100vh;
 }
 
 .header {
@@ -18,14 +19,17 @@ body {
 }
 
 .main {
-  max-width: 800px;
+  max-width: 920px;
   margin: 0 auto;
+}
+
+section:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .profile {
   display: flex;
   gap: 20px;
-  margin-bottom: 30px;
   align-items: center;
 }
 
@@ -56,13 +60,20 @@ body {
 }
 
 .download {
-  margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
-.download .resume {
+.download .resume,
+.download .diploma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.diploma-inner {
   display: flex;
   flex-direction: column;
   align-items: center;
