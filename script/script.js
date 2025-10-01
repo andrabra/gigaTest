@@ -18,7 +18,7 @@ hint.classList.add("hidden");
 document.getElementById("download-pdf").addEventListener("click", () => {
   const link = document.createElement("a");
   link.href = "../content/cv.pdf";
-  link.download = "резюме_Андрей_Майоров.pdf";
+  link.download = "Резюме_Андрей_Майоров.pdf";
   link.click();
 });
 
