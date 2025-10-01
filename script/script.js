@@ -45,7 +45,6 @@ document.getElementById("download-diploma").addEventListener("click", () => {
   }
 });
 
-
 const currentYear = new Date().getFullYear();
 document.querySelector(
   ".footer p"
