@@ -15,7 +15,6 @@
       rel="stylesheet"
     />
 
-    <!-- Подключение стилей -->
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
@@ -60,17 +59,30 @@
       </section>
 
       <section class="skills">
-        <h2>Мои навыки:</h2>
-        <button id="toggle-skills">Показать навыки</button>
-        <ul id="skills-list" class="hidden">
-          <li>HTML&nbsp;&amp; CSS</li>
-          <li>Адаптивная вёрстка</li>
-          <li>JavaScript (ES6+)</li>
-          <li>Angular</li>
-          <li>React</li>
-          <li>Git</li>
-          <li>Github, Gitlab, Bitbucket</li>
-        </ul>
+        <div class="skills-wrapper">
+          <h2>Мои навыки:</h2>
+          <button id="toggle-skills">Показать</button>
+          <ul id="skills-list" class="hidden">
+            <li>HTML&nbsp;&amp; CSS</li>
+            <li>Адаптивная вёрстка</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Angular</li>
+            <li>React</li>
+            <li>Git</li>
+            <li>Github, Gitlab, Bitbucket</li>
+          </ul>
+        </div>
+        <div class="favorites-wrapper">
+          <h2>Мои фавориты:</h2>
+          <button id="toggle-favorites">Показать</button>
+          <ul id="favorites-list" class="hidden">
+            <li>Любимый писатель&nbsp;&mdash; Чак Паланик</li>
+            <li>Любимый герой в&nbsp;Dota 2&nbsp;&mdash; Rubick</li>
+            <li>Любимый напиток&nbsp;&mdash; Чай черный с&nbsp;бергамотом</li>
+            <li>Любимый цвет&nbsp;&mdash; Салатовый</li>
+            <li>Любимый рэпер&nbsp;&mdash; Saluki</li>
+          </ul>
+        </div>
       </section>
 
       <section class="download">

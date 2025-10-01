@@ -50,9 +50,16 @@ section:not(:last-child) {
 
 .skills {
   display: flex;
-  align-items: start;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.skills-wrapper,
+.favorites-wrapper {
+  display: flex;
   flex-direction: column;
   gap: 10px;
+  min-width: 400px;
 }
 
 .download {

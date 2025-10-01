@@ -1,13 +1,25 @@
-const toggleButton = document.getElementById("toggle-skills");
+const toggleSkillsButton = document.getElementById("toggle-skills");
+const toggleFavoritesButton = document.getElementById("toggle-favorites");
 const skillsList = document.getElementById("skills-list");
+const favoritesList = document.getElementById("favorites-list");
 
-toggleButton.addEventListener("click", () => {
+toggleSkillsButton.addEventListener("click", () => {
   skillsList.classList.toggle("hidden");
 
   if (skillsList.classList.contains("hidden")) {
-    toggleButton.textContent = "Показать навыки";
+    toggleSkillsButton.textContent = "Показать";
   } else {
-    toggleButton.textContent = "Скрыть навыки";
+    toggleSkillsButton.textContent = "Скрыть";
+  }
+});
+
+toggleFavoritesButton.addEventListener("click", () => {
+  favoritesList.classList.toggle("hidden");
+
+  if (favoritesList.classList.contains("hidden")) {
+    toggleFavoritesButton.textContent = "Показать";
+  } else {
+    toggleFavoritesButton.textContent = "Скрыть";
   }
 });
 
