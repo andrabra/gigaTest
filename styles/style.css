@@ -63,8 +63,8 @@ section:not(:last-child) {
 }
 
 .download {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: space-evenly;
   gap: 20px;
 }
 
@@ -72,8 +72,8 @@ section:not(:last-child) {
 .download .diploma {
   display: flex;
   flex-direction: column;
-  align-items: start;
   gap: 10px;
+  min-width: 400px;
 }
 
 .diploma-inner {
