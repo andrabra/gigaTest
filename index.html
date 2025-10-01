@@ -61,7 +61,7 @@
       <section class="skills">
         <div class="skills-wrapper">
           <h2>Мои навыки:</h2>
-          <button id="toggle-skills">Показать</button>
+          <button class="btn" id="toggle-skills">Показать</button>
           <ul id="skills-list" class="hidden">
             <li>HTML&nbsp;&amp; CSS</li>
             <li>Адаптивная вёрстка</li>
@@ -74,7 +74,7 @@
         </div>
         <div class="favorites-wrapper">
           <h2>Мои фавориты:</h2>
-          <button id="toggle-favorites">Показать</button>
+          <button class="btn" id="toggle-favorites">Показать</button>
           <ul id="favorites-list" class="hidden">
             <li>Любимый писатель&nbsp;&mdash; Чак Паланик</li>
             <li>Любимый герой в&nbsp;Dota 2&nbsp;&mdash; Rubick</li>
@@ -88,7 +88,16 @@
       <section class="download">
         <div class="resume">
           <h2>Моё резюме</h2>
-          <button id="download-pdf">Скачать резюме</button>
+          <div class="btn-wrapper">
+            <a
+              class="btn"
+              target="_blank"
+              href="https://drive.google.com/file/d/1A4-DRzIjRa-zzXodnlAhlD7_uslRcTcV/view?usp=sharing"
+              id="show-pdf"
+              >Посмотреть</a
+            >
+            <button class="btn" id="download-pdf">Скачать</button>
+          </div>
         </div>
         <div class="diploma">
           <div class="diploma-inner">
@@ -98,7 +107,17 @@
               отличается)
             </div>
           </div>
-          <button id="download-diploma">Скачать диплом</button>
+          <div class="btn-wrapper">
+            <a
+              class="btn"
+              target="_blank"
+              href="https://drive.google.com/file/d/15gUt0jKLWyfcXynIX4S4QG8mMYjyQmZs/view?usp=sharing"
+              id="show-diploma"
+            >
+              Посмотреть</a
+            >
+            <button class="btn" id="download-diploma">Скачать</button>
+          </div>
         </div>
       </section>
     </main>
