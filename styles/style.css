@@ -1,7 +1,7 @@
 /* Общий стиль */
 body {
   font-family: "Montserrat", sans-serif;
-  background: #f9f9f9;
+  background: #f4f4f2;
   color: #333;
   line-height: 1.6;
   padding: 20px;
@@ -15,7 +15,7 @@ body {
 
 .header h1 {
   font-size: 2.5rem;
-  color: #007bff;
+  color: #7170f0;
 }
 
 .main {
@@ -50,13 +50,9 @@ section:not(:last-child) {
 
 .skills {
   display: flex;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
   gap: 10px;
-}
-
-.skills h2 {
-  margin-bottom: 10px;
 }
 
 .download {
@@ -69,23 +65,22 @@ section:not(:last-child) {
 .download .diploma {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   gap: 10px;
 }
 
 .diploma-inner {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   gap: 10px;
 }
 
 .download button {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  justify-content: center;
   padding: 10px 20px;
-  background: #28a745;
+  background: #38b26c;
   color: white;
   border-radius: 6px;
   cursor: pointer;
@@ -94,7 +89,7 @@ section:not(:last-child) {
 }
 
 .download button:hover {
-  background: #218838;
+  background: #28a745;
 }
 
 .hint {
@@ -103,8 +98,9 @@ section:not(:last-child) {
 }
 
 button {
+  width: 185px;
   padding: 10px 20px;
-  background: #007bff;
+  background: #7170f0;
   border-radius: 6px;
   color: white;
   cursor: pointer;
