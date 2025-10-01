@@ -85,7 +85,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  min-width: 400px;
+  min-width: 440px;
 }
 
 .download {
@@ -99,7 +99,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  min-width: 400px;
+  min-width: 440px;
 }
 
 .diploma-inner {
@@ -136,94 +136,4 @@ ul {
   text-align: center;
   font-size: 0.9rem;
   color: #666;
-}
-
-/* Мобильная версия */
-@media (max-width: 768px) {
-  body {
-    padding: 15px;
-    max-height: none;
-  }
-
-  .header h1 {
-    font-size: 2rem;
-  }
-
-  .profile {
-    flex-direction: column;
-    text-align: center;
-    gap: 15px;
-  }
-
-  .profile-photo {
-    width: 120px;
-    height: 120px;
-  }
-
-  .profile-info {
-    gap: 15px;
-    text-align: start;
-  }
-
-  .skills {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .skills-wrapper,
-  .favorites-wrapper {
-    min-width: auto;
-    width: 100%;
-  }
-
-  .download {
-    flex-direction: column;
-    gap: 25px;
-  }
-
-  .download .resume,
-  .download .diploma {
-    min-width: auto;
-    width: 100%;
-  }
-
-  .btn-wrapper {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .download .btn {
-    width: 100%;
-    text-align: center;
-  }
-
-  .diploma-inner {
-    align-items: center;
-    text-align: center;
-  }
-}
-
-@media (max-width: 480px) {
-  .header h1 {
-    font-size: 1.8rem;
-  }
-
-  .profile-photo {
-    width: 100px;
-    height: 100px;
-  }
-
-  .btn {
-    padding: 12px 20px;
-    font-size: 0.9rem;
-  }
-
-  .hint {
-    font-size: 0.75rem;
-    text-align: center;
-  }
-
-  .btn-wrapper {
-    width: 100%;
-  }
 }
