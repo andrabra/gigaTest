@@ -1,5 +1,21 @@
 <?php
 const name = "Андрей Майоров";
+const skills = [
+  'HTML&nbsp;&amp; CSS',
+  'Адаптивная вёрстка',
+  'JavaScript (ES6+)',
+  'Angular',
+  'React',
+  'Git',
+  'Github, Gitlab, Bitbucket',
+];
+const favorites = [
+  'Любимый писатель&nbsp;&mdash; Чак Паланик',
+  'Любимый герой в&nbsp;Dota 2&nbsp;&mdash; Rubick',
+  'Любимый напиток&nbsp;&mdash; Чай черный с&nbsp;бергамотом',
+  'Любимый цвет&nbsp;&mdash; Салатовый',
+  'Любимый рэпер&nbsp;&mdash; Saluki',
+]
 ?>
 
 <!DOCTYPE html>

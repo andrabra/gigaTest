@@ -40,24 +40,22 @@
       <h2>Мои навыки:</h2>
       <button class="btn" id="toggle-skills">Показать</button>
       <ul id="skills-list" class="hidden">
-        <li>HTML&nbsp;&amp; CSS</li>
-        <li>Адаптивная вёрстка</li>
-        <li>JavaScript (ES6+)</li>
-        <li>Angular</li>
-        <li>React</li>
-        <li>Git</li>
-        <li>Github, Gitlab, Bitbucket</li>
+        <?php
+        foreach (skills as $skill) {
+          echo '<li>' . $skill . '</li>';
+        }
+        ?>
       </ul>
     </div>
     <div class="favorites-wrapper">
       <h2>Мои фавориты:</h2>
       <button class="btn" id="toggle-favorites">Показать</button>
       <ul id="favorites-list" class="hidden">
-        <li>Любимый писатель&nbsp;&mdash; Чак Паланик</li>
-        <li>Любимый герой в&nbsp;Dota 2&nbsp;&mdash; Rubick</li>
-        <li>Любимый напиток&nbsp;&mdash; Чай черный с&nbsp;бергамотом</li>
-        <li>Любимый цвет&nbsp;&mdash; Салатовый</li>
-        <li>Любимый рэпер&nbsp;&mdash; Saluki</li>
+        <?php
+        for ($i = 0; $i < count(skills); $i++) {
+          echo '<li>' . skills[$i] . '</li>';
+        }
+        ?>
       </ul>
     </div>
   </section>
