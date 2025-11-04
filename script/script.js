@@ -3,7 +3,7 @@ const toggleFavoritesButton = document.getElementById("toggle-favorites");
 const skillsList = document.getElementById("skills-list");
 const favoritesList = document.getElementById("favorites-list");
 
-toggleSkillsButton.addEventListener("click", () => {
+toggleSkillsButton?.addEventListener("click", () => {
   skillsList.classList.toggle("hidden");
 
   if (skillsList.classList.contains("hidden")) {
@@ -13,7 +13,7 @@ toggleSkillsButton.addEventListener("click", () => {
   }
 });
 
-toggleFavoritesButton.addEventListener("click", () => {
+toggleFavoritesButton?.addEventListener("click", () => {
   favoritesList.classList.toggle("hidden");
 
   if (favoritesList.classList.contains("hidden")) {
@@ -25,16 +25,16 @@ toggleFavoritesButton.addEventListener("click", () => {
 
 const downloadDiploma = document.getElementById("download-diploma");
 const hint = document.querySelector(".hint");
-hint.classList.add("hidden");
+hint?.classList.add("hidden");
 
-document.getElementById("download-pdf").addEventListener("click", () => {
+document.getElementById("download-pdf")?.addEventListener("click", () => {
   const link = document.createElement("a");
   link.href = "../content/cv.pdf";
   link.download = "Резюме_Андрей_Майоров.pdf";
   link.click();
 });
 
-document.getElementById("download-diploma").addEventListener("click", () => {
+document.getElementById("download-diploma")?.addEventListener("click", () => {
   const link = document.createElement("a");
   link.href = "../content/diploma.pdf";
   link.download = "Диплом.pdf";

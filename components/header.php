@@ -1,3 +1,7 @@
+<?php
+const name = "Андрей Майоров";
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -5,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?= name ?></title>
 
-    <link rel="icon" type="image/svg+xml" href="./img/logo.svg" />
+    <link rel="icon" type="image/svg+xml" href="../img/logo.svg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,11 +19,15 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
 
 <header class="header">
+    <div class="link-wrapper">
+        <a class="link" href="../index.php">Главная</a>
+        <a class="link" href="../pages/second_page.php">Доп материалы</a>
+    </div>
     <h1><?= name ?></h1>
 </header>

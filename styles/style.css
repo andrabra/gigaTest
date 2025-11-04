@@ -21,6 +21,19 @@ body {
   color: #7170f0;
 }
 
+.link-wrapper {
+  margin-top: 15px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+
+.link:hover {
+  color: #7170f0;
+  transition: color .2s ease;
+}
+
 .main {
   max-width: 920px;
   margin: 0 auto;
