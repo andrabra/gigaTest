@@ -52,8 +52,8 @@
       <button class="btn" id="toggle-favorites">Показать</button>
       <ul id="favorites-list" class="hidden">
         <?php
-        for ($i = 0; $i < count(skills); $i++) {
-          echo '<li>' . skills[$i] . '</li>';
+        for ($i = 0; $i < count(favorites); $i++) {
+          echo '<li>' . favorites[$i] . '</li>';
         }
         ?>
       </ul>
